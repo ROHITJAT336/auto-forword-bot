@@ -5,9 +5,9 @@ import os
 import asyncio
 
 # Get API credentials from environment variables
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv(" 23907675"))
+API_HASH = os.getenv("afcbe6fd01e601936137c0fcb11a77aa")
+BOT_TOKEN = os.getenv("7626263683:AAEZrt5Y-dLYWJd5jLbeWp4SveAIhvIAdYU")
 
 # Initialize the bot client
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
