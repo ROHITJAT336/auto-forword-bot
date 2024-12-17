@@ -10,7 +10,7 @@ API_HASH = os.getenv("afcbe6fd01e601936137c0fcb11a77aa")
 BOT_TOKEN = os.getenv("7626263683:AAEZrt5Y-dLYWJd5jLbeWp4SveAIhvIAdYU")
 
 # Initialize the bot client
-bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+bot = TelegramClient('bot', API_ID "20797332", API_HASH"752891ccb9b8b2222554e2757c8b3e9c ").start(bot_token=BOT_TOKEN "7632540110:AAE0HNgDsUqdvAOW4vA_ARixic2XgmBOQzQ")
 
 # In-memory storage for source and destination chats
 source_chats = set()
